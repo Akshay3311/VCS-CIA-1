@@ -1,0 +1,20 @@
+class Car {
+    String brand;
+    int speed;
+
+    Car(String brand, int speed) {
+        this.brand = brand;
+        this.speed = speed;
+    }
+
+    void display() {
+        System.out.println("Car Brand: " + brand + ", Speed: " + speed + " km/h");
+    }
+}
+
+public class OOPExample {
+    public static void main(String[] args) {
+        Car myCar = new Car("Toyota", 180);
+        myCar.display();
+    }
+}
